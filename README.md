@@ -2,6 +2,8 @@
 
 This is a Python script that reads an input XML file and translates the Japanese text found in the `name`, `comment`, and `author` tags to English using the Googletrans API. The translated XML file is saved as `output.xml`.
 
+Example of input / output XMLs can be found [here](https://github.com/Korozin/JGecko-XML-Translator/tree/main/Example-Output)
+
 ## Dependencies
 
 This script requires the following dependencies:
