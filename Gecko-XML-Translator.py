@@ -26,12 +26,14 @@ except (ImportError, AttributeError):
         # Enable Ctrl+C handling #
         kernel32.SetConsoleCtrlHandler(exit_gracefully, 1)
     except:
-        print("Failed to set up signal handling. Clean CTRL+C not supported")
+        print(f"{colorama.Fore.RED}[ERROR]:"
+              f"{colorama.Fore.RESET} Failed to set up signal handling."
+              f"Clean CTRL+C exiting not supported"
 
 
 # Set XML names #
 input_xml = 'input.xml'
-output_xml = 'output2.xml'
+output_xml = 'output.xml'
 
 
 # Doing this to avoid encoding statement errors #
